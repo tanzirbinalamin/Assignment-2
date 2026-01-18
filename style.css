@@ -1,0 +1,52 @@
+*{
+    max-width: 1600px;
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+}
+
+
+nav{
+    height: 92px;
+    border-bottom: 1px solid rgb(89, 0, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1A0B2E;
+
+
+}
+
+nav ul{
+    display: flex;
+    gap: 3vw;
+}
+
+nav ul li{
+    list-style: none;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+}
+
+nav .primary-btn{
+    display: flex;
+    align-items: center;
+    padding: 1em 2em;
+    border-radius: 25px;
+    color: white;
+    background: linear-gradient(45deg, yellow, rgb(255, 0, 255), rgb(176, 0, 230));
+    
+    border: none;
+    
+    
+}
+
+.banner{
+    background-image: url(assets/hero-bg.png);
+    height: 760px;
+}
+
