@@ -47,6 +47,105 @@ nav .primary-btn{
 
 .banner{
     background-image: url(assets/hero-bg.png);
+    background-size: cover;
+    background-position: center;
     height: 760px;
+
+    
+    width: 100%;
 }
+
+.content{
+    text-align: center;
+      padding-top: 100px;
+}
+.circle{
+    position: relative;
+}
+
+
+
+
+.circle .microphone{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.circle .box{
+    position:absolute;
+     top: 2%;
+    right: 32%;
+    width: 75px;
+    height: 27px;
+    border: none;
+    border-radius: 25px;
+    color: black;
+    background-color: #00FF88;
+    text-align: center;
+    padding-top: 10px;
+    box-shadow: 0px 0px 20px #00FF88;
+}
+
+.circle .box p{
+    font-weight: bold;
+}
+
+.content .text h1{
+    color: white;
+    font-size: 60px;
+     padding-top: .5em;
+
+    padding-bottom: .25em;
+}
+
+.content .text p{
+    color: white;
+    opacity: 50%;
+    padding-bottom: 2em;
+}
+
+.content .buttons{
+    display: flex;
+    justify-content: center;   
+    gap: 1rem;
+}
+
+.content .buttons .primary-btn{
+    display: flex;
+align-items: center;
+padding: 1em 2em;
+border-radius: 25px;
+color: white;
+background: linear-gradient(45deg, yellow, rgb(255, 0, 255), rgb(176, 0, 230));
+gap:8px;
+    
+
+border: none;
+
+}
+
+.content .buttons .second{
+    padding: 1em 2em;
+border-radius: 25px;
+border: 2px solid #00FF88;
+ display: flex;
+align-items: center;
+color:#00FF88 ;
+background-color: transparent;
+gap:8px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
 
