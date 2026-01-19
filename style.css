@@ -237,7 +237,7 @@ gap:8px;
    padding: 2em 6em 6em 8em;
    
     display:grid;
-    gap: 20px;
+    gap: 30px;
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas: 
     "box1 box2 box2"
@@ -251,11 +251,27 @@ gap:8px;
 .grid-container div{
    
    padding: 2em;
-    border-radius: 25px;
+    border-radius: 35px;
     background-color:#301453 ;
     text-align: left;
     color: white;
 
+}
+
+.grid-container div h3{
+    font-size: 24px;
+    margin-bottom: .5em;
+     margin-top: 1em; 
+}
+
+.grid-container div p{
+    line-height: 24px;
+    padding: 0em 2em 2em 0em;
+    opacity: 40%;
+}
+
+.grid-container .box1{
+    padding-top: 7em;
 }
 
 
