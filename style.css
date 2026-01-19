@@ -201,51 +201,64 @@ gap:8px;
     font-size: 48px;
     font-weight: bold;
 
+
 }
 
+
+
+.box1{
+    grid-area: box1;
+
+}
+
+
+.box2{
+   grid-area: box2;
+   
+}
+
+.box3{
+   grid-area: box3;
+   
+}
+
+.box4{
+   grid-area: box4;
+   
+}
+
+.box5{
+   grid-area: box5;
+   
+}
+
+
 .grid-container{
-    padding-top: 2em ;
+   padding: 2em 6em 6em 8em;
+   
     display:grid;
-     grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: 
+    "box1 box2 box2"
+    "box1 box3 box3"
+    "box4 box4 box5"
     
 
-    
-    
-    
-    
+       
 }
 
 .grid-container div{
-    height: 380px;
-    width: 270px;
-    border-radius: 50px;
+   
+   padding: 2em;
+    border-radius: 25px;
     background-color:#301453 ;
+    text-align: left;
+    color: white;
 
 }
 
-.two-rows{
-    grid-row: span(2);
-    grid-column: span(1);
-    
-/*  */
-}
-/*  */
-/*  */
-.two-columns{
-     grid-column: span(2);
-     grid-row: span(1);
-/*  */
-/*  */
-}
-/*  */
-.one-columns{
-     grid-column: span(1);
-     grid-row: span(1);
-/*  */
-}
-/*  */
-/*  */
+
 
 
 
