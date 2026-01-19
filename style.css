@@ -141,10 +141,111 @@ gap:8px;
 }
 
 
+.about{
+    background-color: #1A0B2E;
+    padding: 0em 10em 0em 10em;
+
+}
+
+.about .text1{
+    text-align: center;
+    padding-top: 2em;
+    color: white;
+    padding-bottom: 80px;
 
 
+}
+.about .text1 h1{
+    font-size: 48px;
+    font-weight: bold;
+
+}
 
 
+.about .text1 p{
+    font-size: 12px;
+    opacity: 70%;
+    line-height: 22px;
+
+}
+
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 1em 10em 2em 18em;
+
+}
+
+.grid h2{
+    font-size: 48px;
+    color: #00FF88;
+    font-weight: bold;
+
+}
+.grid p{
+    color: white;
+}
+
+.about hr{
+    opacity: 25%;
+}
+
+.choose{
+    text-align: center;
+    background-color: #1A0B2E;
+}
+
+.choose h2{
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+
+}
+
+.grid-container{
+    padding-top: 2em ;
+    display:grid;
+     grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+    
+
+    
+    
+    
+    
+}
+
+.grid-container div{
+    height: 380px;
+    width: 270px;
+    border-radius: 50px;
+    background-color:#301453 ;
+
+}
+
+.two-rows{
+    grid-row: span(2);
+    grid-column: span(1);
+    
+/*  */
+}
+/*  */
+/*  */
+.two-columns{
+     grid-column: span(2);
+     grid-row: span(1);
+/*  */
+/*  */
+}
+/*  */
+.one-columns{
+     grid-column: span(1);
+     grid-row: span(1);
+/*  */
+}
+/*  */
+/*  */
 
 
 
