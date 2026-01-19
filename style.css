@@ -252,7 +252,7 @@ gap:8px;
    
    padding: 2em;
     border-radius: 35px;
-    background-color:#301453 ;
+    background-color:#250f3f ;
     text-align: left;
     color: white;
 
@@ -272,6 +272,120 @@ gap:8px;
 
 .grid-container .box1{
     padding-top: 7em;
+}
+
+.video{
+    background-color: #1A0B2E;
+    text-align: center;
+    color: white;
+}
+
+.video h2{
+    padding-top: .5em;
+    margin-bottom: 1em;
+    font-size: 48px;
+    font-weight: bold;
+
+}
+
+.video .card-container{
+    display: flex;
+    justify-content: center;
+    gap: 2.5em;
+    height: 70%;
+    width: 65%;
+   padding-bottom: 8em;
+   margin: 0px auto;
+   
+
+
+
+}
+
+.video .video-box{
+    border: none;
+    width: 100%;
+    aspect-ratio: 16/9;
+    overflow: hidden;
+    height: 150px;
+    padding: none;
+
+
+
+}
+
+.video-box iframe{
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.card-container .cards{
+    
+    background-color: #250f3f;
+    border-radius: 8px;
+    text-align: left;
+    
+   
+}
+
+.card-container .cards h3{
+    font-size: 24px;
+    margin-bottom: .5em;
+    padding-top: .5em;
+    padding-left: .75em;
+
+}
+
+.card-container .cards p{
+    opacity: 65%;
+    line-height: 20px;
+    font-size: 15px;
+    padding-left: 1em;
+    padding-bottom: 1em;
+    
+}
+
+
+
+
+
+
+.card-container span{
+    color: #00FF88;
+    display: flex;
+    gap: px;
+    font-weight: bold;
+   
+    
+}
+
+.host{
+    background-color: #1A0B2E;
+    color: white;
+
+}
+
+.host h2{
+    text-align: center;
+    padding-bottom: 1.5em;
+
+}
+
+.img-container{
+    display: flex;
+    width: 1140px;
+    height: 180px;
+    background-color: #250f3f;
+    border-radius: 15px;
+    padding: 40px;
+    margin: 0px auto;
+    gap: 25px;
+
+}
+
+.img-container .text{
+    padding-top:1.5em;
 }
 
 
