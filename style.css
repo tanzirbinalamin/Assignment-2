@@ -363,6 +363,7 @@ gap:8px;
 .host{
     background-color: #1A0B2E;
     color: white;
+    padding-bottom: 8em;
 
 }
 
@@ -389,8 +390,73 @@ gap:8px;
 }
 
 
+.img-container .text p{
+    
+    opacity: 50%;
+    line-height: 20px;
+    padding-top: 8px;
+
+}
+
+.text .main{
+    display: flex;
+    gap: 1em;
+    padding-top: .75em;
+}
+
+.main .contact{
+    height: 38px;
+    width: 38px;
+    border:2.5px solid #3d156b;
+    border-radius: 50%;
+    
+    
 
 
+}
+
+.contact a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+footer{
+    height: 412px;
+    width: 100%;
+    background-image: url(assets/footer-bg.png);
+    text-align: center;
+    color: white;
+    /* padding-top: 15em; */
+    background-size: cover;
+background-position: center;
+    /* padding-left: 1em; */
 
 
+}
+
+.margin{
+    padding-top: 9em;
+}
+
+footer .podcast{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4em;
+    padding-top: 2em;
+    padding-left: 1em;
+
+}
+
+footer .podcast div{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+footer p{
+    opacity: 50%;
+}
 
