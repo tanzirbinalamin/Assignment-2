@@ -39,10 +39,29 @@ nav .primary-btn{
     border-radius: 25px;
     color: white;
     background: linear-gradient(45deg, yellow, rgb(255, 0, 255), rgb(176, 0, 230));
-    
+    transition: .1s ease-in;
     border: none;
     
     
+}
+
+nav .primary-btn:hover{
+    background: linear-gradient(45deg,  rgb(34, 0, 78), rgb(140, 0, 255));
+    box-shadow: 0px 0px 15px rgb(198, 163, 255);
+    transform: scale(1.1);
+    
+
+
+}
+
+nav .primary-btn:active{
+    transform: scale(0.95);
+
+
+}
+
+nav .manu{
+    display: none;
 }
 
 .banner{
@@ -121,11 +140,25 @@ border-radius: 25px;
 color: white;
 background: linear-gradient(45deg, yellow, rgb(255, 0, 255), rgb(176, 0, 230));
 gap:8px;
+transition: 0.1s ease-in;
     
 
 border: none;
 
 }
+
+.content .buttons .primary-btn:hover{
+     background: linear-gradient(45deg,  rgb(34, 0, 78), rgb(140, 0, 255));
+ box-shadow: 0px 0px 15px rgb(198, 163, 255);
+ transform: scale(1.1);
+
+}
+
+.content .buttons .primary-btn:active{
+    transform: scale(0.95);
+
+}
+
 
 .content .buttons .second{
     padding: 1em 2em;
@@ -136,9 +169,27 @@ align-items: center;
 color:#00FF88 ;
 background-color: transparent;
 gap:8px;
+transition: .1s ease-in;
 
 
 }
+
+.content .buttons .second:hover{
+   background: linear-gradient(45deg,  rgb(34, 0, 78), rgb(0, 255, 115));
+    color: #1A0B2E;
+    transform: scale(1.1);
+     box-shadow: 0px 0px 15px rgb(198, 163, 255);
+    
+
+}
+
+.content .buttons .second:active{
+    transform: scale(0.95);
+
+}
+
+
+
 
 
 .about{
@@ -460,5 +511,23 @@ footer .podcast div{
 
 footer p{
     opacity: 50%;
+}
+
+
+@media screen  and (max-width:576px) {
+
+    nav ul {
+        display: none;
+
+    }
+
+    nav .primary-btn{
+        display: none;
+    }
+
+    nav .manu{
+    display: block;
+}
+    
 }
 
